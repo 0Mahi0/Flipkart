@@ -9,5 +9,5 @@ module.exports = defineConfig({
         screenshot: 'only-on-failure'
     },
 
-    reporter: [['html']]
+    reporter: [['html'], ['list'],['allure-playwright']],
 });
